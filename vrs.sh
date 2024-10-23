@@ -1,16 +1,16 @@
-sudo add-apt-repository ppa:chris-lea/libsodium;
-sudo echo "deb http://ppa.launchpad.net/chris-lea/libsodium/ubuntu trusty main" >> /etc/apt/sources.list;
-sudo echo "deb-src http://ppa.launchpad.net/chris-lea/libsodium/ubuntu trusty main" >> /etc/apt/sources.list;
-sudo apt-get update && sudo apt-get install libsodium-dev;
-sudo apt-get install software-properties-common -y
-sudo add-apt-repository ppa:fkrull/deadsnakes -y
-sudo add-apt-repository ppa:mc3man/trusty-media -y
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install build-essential unzip -y
+ add-apt-repository ppa:chris-lea/libsodium;
+ echo "deb http://ppa.launchpad.net/chris-lea/libsodium/ubuntu trusty main" >> /etc/apt/sources.list;
+ echo "deb-src http://ppa.launchpad.net/chris-lea/libsodium/ubuntu trusty main" >> /etc/apt/sources.list;
+ apt-get update && sudo apt-get install libsodium-dev;
+ apt-get install software-properties-common -y
+ add-apt-repository ppa:fkrull/deadsnakes -y
+ add-apt-repository ppa:mc3man/trusty-media -y
+ apt-get update -y
+ apt-get upgrade -y
+ apt-get install build-essential unzip -y
 #Install Dependencies:
-sudo apt-get install git python3.5 python3.5-dev ffmpeg libopus-dev libffi-dev libsodium-dev -y
-sudo apt install  libsodium-dev -y
+ apt-get install git python3.5 python3.5-dev ffmpeg libopus-dev libffi-dev libsodium-dev -y
+ apt install  libsodium-dev -y
 #verus
 sudo apt update
 apt install libsodium-dev
